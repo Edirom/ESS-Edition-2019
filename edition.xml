@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edition xmlns="http://www.edirom.de/ns/1.3" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ess-edition-2019">
+    <editionName>Workflows und Tools im Kontext digitaler Editionen</editionName>
+    <languages>
+        <language xml:lang="de" complete="true"/>
+    </languages>
+    <preferences xlink:href="xmldb:exist:///db/apps/ess-edition-2019/prefs.xml"/>
+    <works>
+        <work xml:id="work-1" sortNo="1" xlink:href="xmldb:exist:///db/apps/ess-edition-2019/work.xml">
+            <navigatorDefinition>
+                <navigatorCategory sortNo="-1">
+                    <names>
+                        <name>Das Projekt</name>
+                    </names>
+                    <navigatorItem sortNo="1" targets="xmldb:exist:///db/apps/ess-edition-2019/project.xml">
+                        <names>
+                            <name>Einleitung</name>
+                        </names>
+                    </navigatorItem>
+                </navigatorCategory>
+                <navigatorCategory sortNo="2">
+                    <names>
+                        <name>Quellen</name>
+                    </names>
+                    <navigatorItem sortNo="1" targets="xmldb:exist:///db/apps/ess-edition-2019/test.xml">
+                        <names>
+                            <name>Test</name>
+                        </names>
+                    </navigatorItem>
+                </navigatorCategory>
+            </navigatorDefinition>
+            <searchWindowConfig/>
+            <concordance name="Konkordanz">
+                <groups label="Satz">
+                    <group name="Overtura.">
+                        <connections label="Takt">
+                            <connection name="1" plist=""/>
+                        </connections>
+                    </group>
+                </groups>
+            </concordance>
+        </work>
+    </works>
+</edition>
