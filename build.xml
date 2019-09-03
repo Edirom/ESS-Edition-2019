@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="edition" name="ess-edition-2019">
+    <property name="project.version" value="0.1"/>
+    <property name="project.app" value="ess-edition-2019"/>
+    <property name="build.dir" value="build"/>
+    <property name="dist.dir" value="dist"/>
+    <tstamp/>
+    <property name="xar.ext" value="${project.version}-${DSTAMP}${TSTAMP}"/>
+
+    <!-- production ready -->
+
+    <target name="clean">
+        <delete dir="build/"/>
+    </target>
+
+    <target name="edition" depends="clean">
+        
+        <property name="xar-name" value="ess-edition-2019"/>
+        
+        <mkdir dir="${build.dir}"/>
+        <copy todir="${build.dir}/${xar-name}/" encoding="UTF-8" outputencoding="UTF-8">
+            <fileset dir="." includes="*.xml"/>
+            <file file="existPackaging/xconf/collection.xconf"/>
+            <file file="existPackaging/repo.xml"/>
+            <file file="existPackaging/expath-pkg.xml"/>
+            <file file="existPackaging/pre-install.xql"/>
+            <filterchain>
+                <replacetokens>
+                    <token key="name" value="https://www.edirom.de/xars/${xar-name}"/>
+                    <token key="abbrev" value="${xar-name}"/>
+                    <token key="version" value="${xar.ext}"/>
+                    <token key="title" value="${xar-name}"/>
+                    <token key="author" value="Daniel Röwenstrunk"/>
+                    <token key="website" value="https://www.edirom.de/"/>
+                    <token key="target" value="${xar-name}"/>
+                    <token key="type" value="application"/>
+                    <token key="date" value="${DSTAMP}${TSTAMP}"/>
+                </replacetokens>
+            </filterchain>
+        </copy>
+        
+        <mkdir dir="${dist.dir}"/>
+        <zip basedir="${build.dir}/${xar-name}/"
+            destfile="${dist.dir}/${xar-name}-${xar.ext}.xar"/>
+    </target>
+</project>
