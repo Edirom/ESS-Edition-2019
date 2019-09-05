@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edition xmlns="http://www.edirom.de/ns/1.3" xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ess-edition-2019_joachim">
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ess-edition-2019-marte">
     <editionName>Workflows und Tools im Kontext digitaler Editionen</editionName>
     <languages>
         <language xml:lang="de" complete="true"/>
@@ -24,9 +24,9 @@
                     <names>
                         <name>Quellen</name>
                     </names>
-                    <navigatorItem sortNo="1" targets="xmldb:exist:///db/apps/ess-edition-2019/Detmold_measure_annotations.xml">
+                    <navigatorItem sortNo="1" targets="xmldb:exist:///db/apps/ess-edition-2019/autograph_marte.xml">
                         <names>
-                            <name>Die Detmolder Quelle neu</name>
+                            <name>Druck_Schlesinger</name>
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
