@@ -3,18 +3,139 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Der Freischütz</title>
             </titleStmt>
-            <pubStmt/>
+            <pubStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <corpName>
+                        <abbr/>
+                        <expan/>
+                        <address>
+                            <addrLine/>
+                            <addrLine>
+                                <ptr label=""/>
+                            </addrLine>
+                        </address>
+                    </corpName>
+                    <persName role="editor"/>
+                </respStmt>
+                <date/>
+                <availability>
+                    <useRestrict/>
+                </availability>
+            </pubStmt>
+            <seriesStmt>
+                <title/>
+                <identifier type="file_collection"/>
+            </seriesStmt>
+            <sourceDesc>
+                <source xml:id="source_98N20021">
+                    <identifier label=""/>
+                    <titleStmt>
+                        <title/>
+                    </titleStmt>
+                    <pubStmt>
+                        <publisher/>
+                        <pubPlace/>
+                        <date/>
+                    </pubStmt>
+                    <physDesc>
+                        <extent/>
+                        <dimensions/>
+                        <physMedium/>
+                    </physDesc>
+                    <classification>
+                        <termList>
+                            <term classcode="#DcmContentClass"/>
+                            <term classcode="#DcmPresentationClass"/>
+                            <term classcode="#DcmAuthorityClass"/>
+                            <term classcode="#DcmScoringClass"/>
+                            <term classcode="#DcmStateClass"/>
+                            <term classcode="#DcmCompletenessClass"/>
+                        </termList>
+                    </classification>
+                    <itemList/>
+                    <componentGrp/>
+                    <relationList>
+                        <relation rel="isEmbodimentOf"/>
+                    </relationList>
+                </source>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application isodate="2019-09-05T10:20:36.483Z" version="1.0.2">
-                    <name>Deep Optical Measure Detector</name>
-                    <p>Measures detected with Deep Optical Measure Detector</p>
+                <application version="2013">
+                    <name>MerMEId</name>
                 </application>
             </appInfo>
+            <projectDesc>
+                <p>Created using MerMEId</p>
+            </projectDesc>
         </encodingDesc>
+        <workDesc>
+            <work analog="frbr:work" xml:id="work_98N2004E">
+                <identifier label=""/>
+                <titleStmt>
+                    <title xml:lang="de">Der Freischütz</title>
+                    <respStmt>
+                        <persName authURI="http://d-nb.info/gnd" authority="GND" cert="high" codedval="118629662" role="composer">Carl Maria von Weber</persName>
+                    </respStmt>
+                </titleStmt>
+                <creation>
+                    <date/>
+                    <geogName/>
+                </creation>
+                <history>
+                    <p/>
+                </history>
+                <langUsage>
+                    <language xml:id="de">German</language>
+                    <language xml:id="en">English</language>
+                </langUsage>
+                <classification>
+                    <classCode xml:id="DcmContentClass"/>
+                    <classCode xml:id="DcmPresentationClass"/>
+                    <classCode xml:id="DcmAuthorityClass"/>
+                    <classCode xml:id="DcmScoringClass"/>
+                    <classCode xml:id="DcmStateClass"/>
+                    <classCode xml:id="DcmCompletenessClass"/>
+                </classification>
+                <expressionList>
+                    <expression analog="frbr:expression" xml:id="expression_98N20078">
+                        <titleStmt>
+                            <title xml:lang="en"/>
+                        </titleStmt>
+                        <incip/>
+                        <creation>
+                            <date/>
+                            <geogName/>
+                        </creation>
+                        <history>
+                            <p/>
+                        </history>
+                        <perfMedium/>
+                        <classification>
+                            <termList>
+                                <term/>
+                            </termList>
+                        </classification>
+                        <componentGrp/>
+                        <relationList/>
+                    </expression>
+                </expressionList>
+            </work>
+        </workDesc>
+        <revisionDesc>
+            <change isodate="2019-08-28T17:37:09.219Z">
+                <respStmt>
+                    <resp/>
+                </respStmt>
+                <changeDesc>
+                    <p/>
+                </changeDesc>
+            </change>
+        </revisionDesc>
     </meiHead>
     <music>
         <facsimile>

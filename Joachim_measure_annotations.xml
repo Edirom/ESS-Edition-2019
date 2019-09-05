@@ -1,20 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
-    <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title/>
+    <meiHead xml:id="meiHead_b1484317">
+        <fileDesc xml:id="fileDesc_6ccf6ca4">
+            <titleStmt xml:id="titleStmt_5dce53d3">
+                <title xml:id="title_b3a90ff1">Der Freischütz</title>
             </titleStmt>
-            <pubStmt/>
+            <pubStmt xml:id="pubStmt_227d84e8">
+                <respStmt xml:id="respStmt_2ac219d9">
+                    <resp xml:id="resp_b55afa6c">A. Diabelli</resp>
+                    <corpName xml:id="corpName_2ff1136e">
+                        <abbr xml:id="abbr_b235cd7b"/>
+                        <expan xml:id="expan_417c64b3"/>
+                        <address xml:id="address_f7b18080">
+                            <addrLine xml:id="addrLine_3103856f"/>
+                            <addrLine xml:id="addrLine_9462a7c5">
+                                <ptr label="" xml:id="ptr_9962fc2b"/>
+                            </addrLine>
+                        </address>
+                    </corpName>
+                    <persName role="editor" xml:id="persName_b6a199cb"/>
+                </respStmt>
+                <date xml:id="date_cec9885f">vermutlich Anfang 1822</date>
+                <availability xml:id="availability_85676216">
+                    <useRestrict xml:id="useRestrict_1282fde0"/>
+                </availability>
+            </pubStmt>
+            <seriesStmt xml:id="seriesStmt_429a63cb">
+                <title xml:id="title_852b4e4a"/>
+                <identifier type="file_collection" xml:id="identifier_7285fd25"/>
+            </seriesStmt>
+            <sourceDesc xml:id="sourceDesc_a1187371">
+                <source label="" xml:id="source_013a2dd8">
+                    <identifier label="" xml:id="identifier_7ff6544f"/>
+                    <titleStmt xml:id="titleStmt_2c05a47e">
+                        <title xml:id="title_e5724685"/>
+                    </titleStmt>
+                    <pubStmt xml:id="pubStmt_3a744d28">
+                        <publisher xml:id="publisher_cabf6c9e"/>
+                        <pubPlace xml:id="pubPlace_e27010ae"/>
+                        <date xml:id="date_fa7045f6"/>
+                    </pubStmt>
+                    <physDesc xml:id="physDesc_d3b80a14">
+                        <extent xml:id="extent_e0c5610f"/>
+                        <dimensions xml:id="dimensions_7f3565c2"/>
+                        <physMedium xml:id="physMedium_5c28579f"/>
+                    </physDesc>
+                    <classification xml:id="classification_d2dda6df">
+                        <termList xml:id="termList_7c8fc096">
+                            <term classcode="#DcmContentClass" xml:id="term_572c1df7"/>
+                            <term classcode="#DcmPresentationClass" xml:id="term_f3225dbd"/>
+                            <term classcode="#DcmAuthorityClass" xml:id="term_c0a9d85d"/>
+                            <term classcode="#DcmScoringClass" xml:id="term_0d04acb9"/>
+                            <term classcode="#DcmStateClass" xml:id="term_7cbbaa51"/>
+                            <term classcode="#DcmCompletenessClass" xml:id="term_520b3fd9"/>
+                        </termList>
+                    </classification>
+                    <itemList xml:id="itemList_be33fafe"/>
+                    <componentGrp xml:id="componentGrp_68f85409"/>
+                    <relationList xml:id="relationList_ef16799a">
+                        <relation label="" rel="isEmbodimentOf" xml:id="relation_db84558c"/>
+                    </relationList>
+                </source>
+            </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application isodate="2019-09-05T13:58:31.419Z" version="1.0.2">
-                    <name>Deep Optical Measure Detector</name>
-                    <p>Measures detected with Deep Optical Measure Detector</p>
+        <encodingDesc xml:id="encodingDesc_1944a4bc">
+            <appInfo xml:id="appInfo_7085f6ac">
+                <application version="2013" xml:id="application_b902476a">
+                    <name xml:id="name_c15bbab3">MerMEId</name>
                 </application>
             </appInfo>
+            <projectDesc xml:id="projectDesc_17080938">
+                <p>Created using MerMEId</p>
+            </projectDesc>
         </encodingDesc>
+        <workDesc xml:id="workDesc_5a9f18fe">
+            <work analog="frbr:work" xml:id="work_fbb2909a">
+                <identifier label="" xml:id="identifier_615c57ab"/>
+                <titleStmt xml:id="titleStmt_f35e0cbe">
+                    <title xml:id="title_2758c15d" xml:lang="de">Der Freischütz</title>
+                    <title type="subordinate" xml:id="title_573b7676" xml:lang="de">Romantische Oper
+                        in drey Aufzügen</title>
+                    <respStmt xml:id="respStmt_a8960167">
+                        <persName role="composer" xml:id="persName_d4fa1371">Weber, Carl Maria von </persName>
+                        <persName role="librettist" xml:id="persName_83b2a3c1">Kind,
+                            Friedrich</persName>
+                    </respStmt>
+                </titleStmt>
+                <creation xml:id="creation_b8863e32">
+                    <date isodate="1822" xml:id="date_3f22c74b">Anfang 1822</date>
+                    <geogName xml:id="geogName_ecdebb78"/>
+                </creation>
+                <history xml:id="history_a0068090">
+                    <p/>
+                </history>
+                <langUsage xml:id="langUsage_2e4aa501">
+                    <language xml:id="de">German</language>
+                    <language xml:id="en">English</language>
+                </langUsage>
+                <biblList xml:id="biblList_542e55bc">
+                    <head xml:id="head_348d6b4c">Bibliography</head>
+                </biblList>
+                <notesStmt xml:id="notesStmt_3473743c">
+                    <annot label="" type="links" xml:id="annot_7c63f3d6">
+                        <ptr label="Komplettes Faksimile" mimetype=""
+                            target="https://digital-beta.staatsbibliothek-berlin.de/werkansicht?PPN=PPN1666860077&amp;PHYSID=PHYS_0009&amp;DMDID="
+                            xml:id="ptr_ca205d02"/>
+                    </annot>
+                    <annot label="Klavierauszug" type="general_description" xml:id="annot_84b8d930">
+                        <p>Klavierauszug Wien: A. Diabelli</p>
+                    </annot>
+                </notesStmt>
+                <classification xml:id="classification_7ad5d468">
+                    <classCode xml:id="DcmContentClass"/>
+                    <classCode xml:id="DcmPresentationClass"/>
+                    <classCode xml:id="DcmAuthorityClass"/>
+                    <classCode xml:id="DcmScoringClass"/>
+                    <classCode xml:id="DcmStateClass"/>
+                    <classCode xml:id="DcmCompletenessClass"/>
+                    <termList xml:id="termList_1ff7ffa0">
+                        <term xml:id="term_2102b1f8">Opera</term>
+                        <term xml:id="term_b72bfcdc"/>
+                        <term xml:id="term_5e7da41f">piano score</term>
+                        <term xml:id="term_8697e697"/>
+                    </termList>
+                </classification>
+                <expressionList xml:id="expressionList_1af232e1">
+                    <expression analog="frbr:expression" xml:id="expression_734d9444">
+                        <titleStmt xml:id="titleStmt_bc8eb7ba">
+                            <title xml:id="title_712f4d64" xml:lang="en"/>
+                            <respStmt xml:id="respStmt_5544b0fd">
+                                <persName authURI="http://d-nb.info/gnd" authority="GND"
+                                    codedval="https://d-nb.info/gnd/118629662" role=""
+                                    xml:id="persName_d4f9facc">Weber, Carl Maria von</persName>
+                            </respStmt>
+                        </titleStmt>
+                        <incip xml:id="incip_1e9938b9">
+                            <graphic label=""
+                                target="https://content.staatsbibliothek-berlin.de/dms/PPN1666860077/1200/0/00000009.jpg"
+                                targettype="lowres" xml:id="graphic_2b04e4d8"/>
+                            <graphic label=""
+                                target="https://content.staatsbibliothek-berlin.de/dms/PPN1666860077/1200/0/00000013.jpg"
+                                targettype="lowres" xml:id="graphic_486b725c"/>
+                            <graphic label=""
+                                target="https://content.staatsbibliothek-berlin.de/dms/PPN1666860077/1200/0/00000014.jpg"
+                                targettype="lowres" xml:id="graphic_adc919c2"/>
+                            <graphic label=""
+                                target="https://content.staatsbibliothek-berlin.de/dms/PPN1666860077/1200/0/00000015.jpg"
+                                targettype="lowres" xml:id="graphic_f5637eb4"/>
+                            <graphic label=""
+                                target="https://content.staatsbibliothek-berlin.de/dms/PPN1666860077/1200/0/00000016.jpg"
+                                targettype="lowres" xml:id="graphic_a8d59d80"/>
+                        </incip>
+                        <creation xml:id="creation_3cb04245">
+                            <date xml:id="date_39cf05e2"/>
+                            <geogName xml:id="geogName_f8b9a271"/>
+                        </creation>
+                        <history xml:id="history_c469485b">
+                            <p/>
+                        </history>
+                        <perfMedium xml:id="perfMedium_f63947d8">
+                            <castList xml:id="castList_2854d83a">
+                                <castItem xml:id="castItem_db4a1cb3">
+                                    <perfRes codedval="vso" xml:id="perfRes_6e1c1f6f"
+                                        >Soprano</perfRes>
+                                    <role xml:id="role_10f8505f">
+                                        <name xml:id="name_ccdf2985" xml:lang="en">Agathe</name>
+                                    </role>
+                                    <roleDesc xml:id="roleDesc_b19c72fc" xml:lang="en"/>
+                                </castItem>
+                            </castList>
+                            <perfResList xml:id="perfResList_690b2551">
+                                <perfRes count="1" solo="false" xml:id="perfRes_8397fc99"/>
+                            </perfResList>
+                        </perfMedium>
+                        <classification xml:id="classification_86adc613">
+                            <termList xml:id="termList_b3da2469">
+                                <term xml:id="term_93768a95"/>
+                            </termList>
+                        </classification>
+                        <componentGrp xml:id="componentGrp_0bff6a59"/>
+                        <relationList xml:id="relationList_ec36da43"/>
+                    </expression>
+                </expressionList>
+            </work>
+        </workDesc>
+        <revisionDesc>
+            <change isodate="2019-09-05T14:57:39.607Z" xml:id="change_3fc72883">
+                <respStmt xml:id="respStmt_b0f8a8cd">
+                    <resp xml:id="resp_828bdfeb"/>
+                </respStmt>
+                <changeDesc xml:id="changeDesc_3ec1c30e">
+                    <p xml:id="p_88761616"/>
+                </changeDesc>
+            </change>
+        </revisionDesc>
     </meiHead>
     <music>
         <facsimile>
