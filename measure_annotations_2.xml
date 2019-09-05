@@ -1,21 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
-    <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title/>
+  <meiHead xml:id="meiHead_4f82a8bc">
+    <fileDesc xml:id="fileDesc_c9b3403d">
+      <titleStmt xml:id="titleStmt_b4e8e583">
+        <title xml:id="title_fc7f9555">Der Freischütz_B</title>
+      </titleStmt>
+      <pubStmt xml:id="pubStmt_253478f6">
+        <respStmt xml:id="respStmt_f763b756">
+          <resp xml:id="resp_3a75a82c">Publisher</resp>
+          <corpName xml:id="corpName_26c79d96">
+            <abbr xml:id="abbr_dc20f72c"/>
+            <expan xml:id="expan_5ac40559"/>
+            <address xml:id="address_0040665a">
+              <addrLine xml:id="addrLine_88e82da6"/>
+              <addrLine xml:id="addrLine_bb74aaf4">
+                <ptr label="" xml:id="ptr_N20261"/>
+              </addrLine>
+            </address>
+          </corpName>
+          <persName role="editor" xml:id="persName_7c6318f1"/>
+        </respStmt>
+        <date xml:id="date_5aa29d60"/>
+        <availability xml:id="availability_0d263244">
+          <useRestrict xml:id="useRestrict_7e65373b"/>
+        </availability>
+      </pubStmt>
+      <seriesStmt xml:id="seriesStmt_7953a636">
+        <title xml:id="title_043997ad"/>
+        <identifier type="file_collection" xml:id="identifier_36106a22"/>
+      </seriesStmt>
+      <sourceDesc xml:id="sourceDesc_cc5bbeb5">
+        <source label="SchlesingerD1867" xml:id="source_98N20020">
+          <identifier label="" xml:id="identifier_f3f0d392"/>
+          <titleStmt xml:id="titleStmt_1b72e87e">
+            <title xml:id="title_1627d5e9">Weber: Der Freischütz (D1867)</title>
+          </titleStmt>
+          <pubStmt xml:id="pubStmt_45e96f29">
+            <publisher xml:id="publisher_9915aaea">Schlesinger</publisher>
+            <pubPlace xml:id="pubPlace_344f812b">Berlin</pubPlace>
+            <date xml:id="date_12c795a7"/>
+          </pubStmt>
+          <physDesc xml:id="physDesc_438c2985">
+            <extent xml:id="extent_5de4f130"/>
+            <dimensions xml:id="dimensions_a1ef4ef6"/>
+            <physMedium xml:id="physMedium_a0cbfc27"/>
+          </physDesc>
+          <notesStmt xml:id="notesStmt_44b52db7">
+            <annot type="source_description" xml:id="annot_74124ed8">
+              <p>Zweite, korrigierte Auflage der Partitur von 1849, erschienen 1867</p>
+            </annot>
+            <annot type="links" xml:id="annot_7da18525">
+              <ptr label="" mimetype="" xml:id="ptr_814369bd"/>
+            </annot>
+          </notesStmt>
+          <classification xml:id="classification_916a8ade">
+            <termList xml:id="termList_3f766d77">
+              <term classcode="#DcmContentClass" xml:id="term_3561ba30">notated music</term>
+              <term classcode="#DcmPresentationClass" xml:id="term_1f065775">print</term>
+              <term classcode="#DcmAuthorityClass" xml:id="term_668765a1"/>
+              <term classcode="#DcmScoringClass" xml:id="term_08ddfdb5">score</term>
+              <term classcode="#DcmStateClass" xml:id="term_5de5a7e4">later edition</term>
+              <term classcode="#DcmCompletenessClass" xml:id="term_712a638e">complete</term>
+            </termList>
+          </classification>
+          <itemList xml:id="itemList_a88f90cf">
+            <item label="SchlesingerD1867" xml:id="item_bad09045">
+              <identifier label="" xml:id="identifier_4b5d769f"/>
+              <physDesc xml:id="physDesc_36919b6a"/>
+              <physLoc xml:id="physLoc_6c85d0b0">
+                <repository xml:id="repository_5bea9526">
+                  <corpName xml:id="corpName_8c06e59f">Stabi Berlin</corpName>
+                  <geogName xml:id="geogName_e7f4d8aa">Berlin</geogName>
+                  <identifier authURI="http://www.rism.info" authority="RISM" xml:id="identifier_ba354869">D-B</identifier>
+                </repository>
+                <identifier xml:id="identifier_f693d2ad"/>
+              </physLoc>
+              <componentGrp xml:id="componentGrp_e7b3ede8"/>
+            </item>
+          </itemList>
+          <componentGrp xml:id="componentGrp_1aefe83d"/>
+          <relationList xml:id="relationList_efde22dd">
+            <relation label="" rel="isEmbodimentOf" xml:id="relation_a8fb961d"/>
+          </relationList>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xml:id="encodingDesc_cc2cf2e4">
+      <appInfo xml:id="appInfo_1710f69d">
+        <application version="2013" xml:id="application_d3c7c77e">
+          <name xml:id="name_00735a8c">MerMEId</name>
+        </application>
+      </appInfo>
+      <projectDesc xml:id="projectDesc_47121b66">
+        <p>Created using MerMEId</p>
+      </projectDesc>
+    </encodingDesc>
+    <workDesc xml:id="workDesc_8eb9ac48">
+      <work analog="frbr:work" xml:id="work_98N2004D">
+        <identifier label="" xml:id="identifier_e4b899a2"/>
+        <titleStmt xml:id="titleStmt_18dd2926">
+          <title xml:id="title_8ab9bd94" xml:lang="de">Der Freischütz_B</title>
+          <respStmt xml:id="respStmt_ab3a549a">
+            <persName cert="high" role="composer" xml:id="persName_14f1bde6">Carl Maria von Weber</persName>
+          </respStmt>
+        </titleStmt>
+        <creation xml:id="creation_8d082e34">
+          <date xml:id="date_931002a1"/>
+          <geogName xml:id="geogName_df5853aa"/>
+        </creation>
+        <history xml:id="history_6c5e1565">
+          <p/>
+        </history>
+        <langUsage xml:id="langUsage_8c23073e">
+          <language xml:id="de">German</language>
+          <language xml:id="en">English</language>
+        </langUsage>
+        <classification xml:id="classification_07bf9ece">
+          <classCode xml:id="DcmContentClass"/>
+          <classCode xml:id="DcmPresentationClass"/>
+          <classCode xml:id="DcmAuthorityClass"/>
+          <classCode xml:id="DcmScoringClass"/>
+          <classCode xml:id="DcmStateClass"/>
+          <classCode xml:id="DcmCompletenessClass"/>
+        </classification>
+        <expressionList xml:id="expressionList_22d2ac4e">
+          <expression analog="frbr:expression" xml:id="expression_98N20073">
+            <titleStmt xml:id="titleStmt_8620d54a">
+              <title xml:id="title_0daca6bb" xml:lang="en"/>
             </titleStmt>
-            <pubStmt/>
-        </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application isodate="2019-09-05T10:15:26.513Z" version="1.0.2">
-                    <name>Deep Optical Measure Detector</name>
-                    <p>Measures detected with Deep Optical Measure Detector</p>
-                </application>
-            </appInfo>
-        </encodingDesc>
-    </meiHead>
+            <incip xml:id="incip_4ccc73c5"/>
+            <creation xml:id="creation_1c81aada">
+              <date xml:id="date_ae92d1ca"/>
+              <geogName xml:id="geogName_3c1b4329"/>
+            </creation>
+            <history xml:id="history_f2eebb71">
+              <p/>
+            </history>
+            <perfMedium xml:id="perfMedium_10e00f20"/>
+            <classification xml:id="classification_ec3b8f84">
+              <termList xml:id="termList_525b5c3c">
+                <term xml:id="term_21c04f48"/>
+              </termList>
+            </classification>
+            <componentGrp xml:id="componentGrp_1fa91822"/>
+            <relationList xml:id="relationList_b287941e"/>
+          </expression>
+        </expressionList>
+      </work>
+    </workDesc>
+    <revisionDesc>
+      <change isodate="2019-09-05T14:28:26.671Z" xml:id="change_5a82604f">
+        <respStmt xml:id="respStmt_7d7fe02d">
+          <resp xml:id="resp_3a8c6e9d"/>
+        </respStmt>
+        <changeDesc xml:id="changeDesc_a09ad77f">
+          <p xml:id="p_071f7885"/>
+        </changeDesc>
+      </change>
+    </revisionDesc>
+  </meiHead>
     <music>
         <facsimile>
             <surface xml:id="surface_01DM0EQX27Y4YQCK7Z81EV1YVF"

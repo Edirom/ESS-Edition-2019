@@ -1,20 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
       <meiHead>
             <fileDesc>
                   <titleStmt>
-                        <title/>
+                        <title>Der Freischütz</title>
                   </titleStmt>
-                  <pubStmt/>
+                  <pubStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <corpName>
+                                    <abbr/>
+                                    <expan/>
+                                    <address>
+                                          <addrLine/>
+                                          <addrLine>
+                                                <ptr label="" xml:id="ptr_N20261"/>
+                                          </addrLine>
+                                    </address>
+                              </corpName>
+                              <persName role="editor"/>
+                        </respStmt>
+                        <date/>
+                        <availability>
+                              <useRestrict/>
+                        </availability>
+                  </pubStmt>
+                  <seriesStmt>
+                        <title/>
+                        <identifier type="file_collection"/>
+                  </seriesStmt>
+                  <sourceDesc>
+                        <source label="" xml:id="source_103N20020">
+                              <identifier label=""/>
+                              <titleStmt>
+                                    <title/>
+                              </titleStmt>
+                              <pubStmt>
+                                    <publisher/>
+                                    <pubPlace/>
+                                    <date/>
+                              </pubStmt>
+                              <physDesc>
+                                    <extent/>
+                                    <dimensions/>
+                                    <physMedium/>
+                              </physDesc>
+                              <classification>
+                                    <termList>
+                                          <term classcode="#DcmContentClass"/>
+                                          <term classcode="#DcmPresentationClass"/>
+                                          <term classcode="#DcmAuthorityClass"/>
+                                          <term classcode="#DcmScoringClass"/>
+                                          <term classcode="#DcmStateClass"/>
+                                          <term classcode="#DcmCompletenessClass"/>
+                                    </termList>
+                              </classification>
+                              <itemList xml:id="itemList_360bbeec">
+                                    <item label="Druck Schlesinger 1867" xml:id="item_4cc3ec65">
+                                          <identifier label="" xml:id="identifier_eacf977e"/>
+                                          <physDesc xml:id="physDesc_4aadaf73">
+                                                <titlePage label="Title page after first fly leaf" xml:id="titlePage_4215fe6e">
+                                                      <p>DER FREISCHÜTZ | Romantische Oper in drei Aufzügen | Gedichtet von Fr. Kind | Musik von | CARL MARIA VON WEBER | Partitur. | Einzig rechtmässige | <rend rend="underline">nach der Handschrift des Componisten neu-revidirte Original-Ausgabe</rend> |</p>
+                                                </titlePage>
+                                          </physDesc>
+                                          <physLoc xml:id="physLoc_6bd3d9a2">
+                                                <repository xml:id="repository_adce25db">
+                                                      <corpName xml:id="corpName_3d0f3662">Staatsbibliothek zu Berlin</corpName>
+                                                      <geogName xml:id="geogName_0fd6a5b3">Berlin</geogName>
+                                                      <identifier authURI="http://www.rism.info" authority="RISM" xml:id="identifier_20937be8">D-B</identifier>
+                                                </repository>
+                                                <identifier xml:id="identifier_774d27eb">Weberiana Cl. IV A, Bd. 4</identifier>
+                                          </physLoc>
+                                          <componentGrp xml:id="componentGrp_5dbaa7ea"/>
+                                    </item>
+                              </itemList>
+                              <componentGrp/>
+                              <relationList>
+                                    <relation label="" rel="isEmbodimentOf"/>
+                              </relationList>
+                        </source>
+                  </sourceDesc>
             </fileDesc>
             <encodingDesc>
                   <appInfo>
-                        <application isodate="2019-09-05T10:16:23.535Z" version="1.0.2">
-                              <name>Deep Optical Measure Detector</name>
-                              <p>Measures detected with Deep Optical Measure Detector</p>
+                        <application version="2013">
+                              <name>MerMEId</name>
                         </application>
                   </appInfo>
+                  <projectDesc>
+                        <p>Created using MerMEId</p>
+                  </projectDesc>
             </encodingDesc>
+            <workDesc>
+                  <work analog="frbr:work" xml:id="work_b6f66240">
+                        <identifier label="" xml:id="identifier_2cdb860d"/>
+                        <titleStmt xml:id="titleStmt_eb748887">
+                              <title xml:id="title_d4c24e10" xml:lang="de">Der Freischütz</title>
+                              <respStmt xml:id="respStmt_4b782edd">
+                                    <persName role="composer" xml:id="persName_8205f640">Carl Maria von Weber</persName>
+                              </respStmt>
+                        </titleStmt>
+                        <creation xml:id="creation_caf36824">
+                              <date xml:id="date_0eedfbea"/>
+                              <geogName xml:id="geogName_4a8b973c"/>
+                        </creation>
+                        <history xml:id="history_6bfa58f1">
+                              <p/>
+                        </history>
+                        <langUsage xml:id="langUsage_1bd5008c">
+                              <language xml:id="de">German</language>
+                              <language xml:id="en">English</language>
+                        </langUsage>
+                        <notesStmt xml:id="notesStmt_0bc04fed">
+                              <annot label="" type="links" xml:id="annot_561e5ca9">
+                                    <ptr label="" mimetype="" target="https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN83431326X&amp;PHYSID=PHYS_0009&amp;DMDID=" xml:id="ptr_c85dc998"/>
+                              </annot>
+                              <annot label="" type="general_description" xml:id="annot_b0ea5d58">
+                                    <p>Romantische Oper in drei Aufzügen. Gedichtet von Fr. Kind. Musik von Carl Maria von Weber</p>
+                              </annot>
+                        </notesStmt>
+                        <classification xml:id="classification_b4ebad9e">
+                              <classCode xml:id="DcmContentClass"/>
+                              <classCode xml:id="DcmPresentationClass"/>
+                              <classCode xml:id="DcmAuthorityClass"/>
+                              <classCode xml:id="DcmScoringClass"/>
+                              <classCode xml:id="DcmStateClass"/>
+                              <classCode xml:id="DcmCompletenessClass"/>
+                        </classification>
+                        <expressionList xml:id="expressionList_546dca08">
+                              <expression analog="frbr:expression" xml:id="expression_dabde508">
+                                    <titleStmt xml:id="titleStmt_4ef224ad">
+                                          <title xml:id="title_820dbca9" xml:lang="en"/>
+                                    </titleStmt>
+                                    <incip xml:id="incip_9d7dd507"/>
+                                    <creation xml:id="creation_27381f9e">
+                                          <date xml:id="date_37c05335"/>
+                                          <geogName xml:id="geogName_4e68351f"/>
+                                    </creation>
+                                    <history xml:id="history_71ba44f6">
+                                          <p/>
+                                    </history>
+                                    <perfMedium xml:id="perfMedium_d989cc30"/>
+                                    <classification xml:id="classification_f44b0f4c">
+                                          <termList xml:id="termList_f5abf4fd">
+                                                <term xml:id="term_abc7d0c6"/>
+                                          </termList>
+                                    </classification>
+                                    <componentGrp xml:id="componentGrp_bf5bd010"/>
+                                    <relationList xml:id="relationList_68370d9f"/>
+                              </expression>
+                        </expressionList>
+                  </work>
+            </workDesc>
+            <revisionDesc>
+                  <change isodate="2019-09-05T14:33:02.162Z">
+                        <respStmt>
+                              <resp/>
+                        </respStmt>
+                        <changeDesc>
+                              <p/>
+                        </changeDesc>
+                  </change>
+            </revisionDesc>
       </meiHead>
       <music>
             <facsimile>
@@ -129,6 +277,7 @@
                   <mdiv xml:id="mdiv_01DM0ESMQGPMVD5EYFQTK0CT6W" n="1">
                         <score>
                               <scoreDef/>
+                              <section>
                               <measure label="1" xml:id="measure_01DM0ESMQN0ET9711DGTK1ZBTA" n="2"
                                     facs="#zone_01DM0ESMQN7PNXP6Q77XRYWWEC"/>
                               <measure label="2" xml:id="measure_01DM0ESMQNN9QQFSWD2NK21V1N" n="3"
@@ -220,6 +369,7 @@
                                     facs="#zone_01DM0ESMR5XG6N70XZRNZ3MCW6"/>
                               <measure label="45" xml:id="measure_01DM0ESMR5YHJA0Z3XZ3C1S8PF" n="45"
                                     facs="#zone_01DM0ESMR5Y1JDWKS58GH9QTFQ"/>
+                              </section>
                         </score>
                   </mdiv>
             </body>
