@@ -199,7 +199,7 @@
     <music>
         <facsimile>
             <surface xml:id="surface_01DM0VGC862J38K1AW49BFCSCR" n="1" ulx="0" uly="0" lrx="1199" lry="939">
-                <graphic xml:id="graphic_01DM0VGC89VGDYCV7AP7J3PTDK" target="00000013.jpg" width="1200" height="940"/>
+                <graphic xml:id="graphic_01DM0VGC89VGDYCV7AP7J3PTDK" target="00000013.jpg" width="1200" height="940" type="facsimile"/>
                 
                 
                 <zone xml:id="zone_01DM0VGC8A2S7AAZBP3QKP8W3T" type="measure" ulx="337" uly="154" lrx="444" lry="292"/>
@@ -239,7 +239,7 @@
                 <zone xml:id="zone_01DM0VGC8V4B9FCS488HBZSJDC" type="measure" ulx="980" uly="615" lrx="1067" lry="748"/>
             <zone xml:id="zone_14789fa6-4024-49ee-8715-2e57557a162c" ulx="202" uly="214" lrx="313" lry="222"/><zone xml:id="zone_5b4a987d-54ee-4e86-8815-78551018fdd2" ulx="296" uly="211" lrx="298" lry="231"/></surface>
             <surface xml:id="surface_01DM0VGC8WPD30AM6XTYVM0G7K" n="2" ulx="0" uly="0" lrx="1199" lry="950">
-                <graphic xml:id="graphic_01DM0VGC8WWS33R0BABTFNQEAR" target="00000014.jpg" width="1200" height="951"/>
+                <graphic xml:id="graphic_01DM0VGC8WWS33R0BABTFNQEAR" target="00000014.jpg" width="1200" height="951" type="facsimile"/>
                 <zone xml:id="zone_01DM0VGC8WVPN946ANKTCK99PF" type="measure" ulx="132" uly="108" lrx="339" lry="256"/>
                 <zone xml:id="zone_01DM0VGC8WFZR4AGF51721CWGH" type="measure" ulx="324" uly="120" lrx="470" lry="254"/>
                 <zone xml:id="zone_01DM0VGC8WCTMAKXF6Q8JS1VQQ" type="measure" ulx="457" uly="119" lrx="598" lry="250"/>
@@ -281,7 +281,7 @@
                 <zone xml:id="zone_01DM0VGC9DK6XJMRT15YYWCAFQ" type="measure" ulx="1014" uly="645" lrx="1115" lry="804"/>
             </surface>
             <surface xml:id="surface_01DM0VGC9D6VJME7Z5AD3EX2K2" n="3" ulx="0" uly="0" lrx="1199" lry="946">
-                <graphic xml:id="graphic_01DM0VGC9ERF3MV6ME0XQ8P2AP" target="00000015.jpg" width="1200" height="947"/>
+                <graphic xml:id="graphic_01DM0VGC9ERF3MV6ME0XQ8P2AP" target="00000015.jpg" width="1200" height="947" type="facsimile"/>
                 <zone xml:id="zone_01DM0VGC9EAB2J6ZKNE3KQYCXH" type="measure" ulx="109" uly="99" lrx="212" lry="258"/>
                 <zone xml:id="zone_01DM0VGC9EK827GKYJHR3XTNE6" type="measure" ulx="201" uly="98" lrx="370" lry="259"/>
                 <zone xml:id="zone_01DM0VGC9E5XBQDCBPSJRACVRT" type="measure" ulx="355" uly="104" lrx="498" lry="255"/>
@@ -323,7 +323,7 @@
                 <zone xml:id="zone_01DM0VGC9Z7GZ91Q4X21SF9K20" type="measure" ulx="922" uly="660" lrx="1077" lry="792"/>
             </surface>
             <surface xml:id="surface_01DM0VGCA018T44KC8W6RQTG09" n="4" ulx="0" uly="0" lrx="1199" lry="950">
-                <graphic xml:id="graphic_01DM0VGCA0VFEZE0W0HGQ5592Q" target="00000016.jpg" width="1200" height="951"/>
+                <graphic xml:id="graphic_01DM0VGCA0VFEZE0W0HGQ5592Q" target="00000016.jpg" width="1200" height="951" type="facsimile"/>
                 <zone xml:id="zone_01DM0VGCA0Z28XYTQ82HNDB2RM" type="measure" ulx="111" uly="120" lrx="261" lry="260"/>
                 <zone xml:id="zone_01DM0VGCA20WDQKPYRX8XX6MQ7" type="measure" ulx="248" uly="124" lrx="344" lry="255"/>
                 <zone xml:id="zone_01DM0VGCA48TH0T9KN3FWEQMMY" type="measure" ulx="332" uly="130" lrx="434" lry="256"/>

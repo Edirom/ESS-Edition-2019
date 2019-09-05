@@ -16,7 +16,7 @@ RUN ant
 FROM stadlerpeter/existdb:latest
 MAINTAINER Daniel Röwenstrunk <roewenstrunk@uni-paderborn.de>
 
-ENV EDIROM_VERSION 0.9.1
+ENV EDIROM_VERSION 0.9.3
 ENV EDIROM_URL https://github.com/Edirom/Edirom-Online/releases/download/v${EDIROM_VERSION}/Edirom-Online-${EDIROM_VERSION}.xar
 
 ENV EXIST_CONTEXT_PATH /
