@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
       <meiHead>
             <fileDesc>
@@ -468,6 +469,7 @@
          <mdiv xml:id="mdiv_01DM0EX9DGRB2H49BTQ2SZK83D" n="1" label="">
             <score>
                <scoreDef/>
+                  <section>
                <measure label="1"
                         xml:id="measure_01DM0EX9FMF4YYE2892PM9P499"
                         n="1"
@@ -628,6 +630,7 @@
                         xml:id="measure_01DM0EX9PJNNAX0GGRY7FQ3S82"
                         n="40"
                         facs="#zone_01DM0EX9PH14HYJRAK1Z9RZQ33"/>
+                  </section>
             </score>
          </mdiv>
       </body>
