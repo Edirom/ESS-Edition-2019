@@ -44,6 +44,11 @@
                             <name>Druck Ulrich</name>
                         </names>
                     </navigatorItem>
+                    <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/klavierauszug.xml">
+                        <names>
+                            <name>ED-kl Ina</name>
+                        </names>
+                    </navigatorItem>
                 </navigatorCategory>
             </navigatorDefinition>
             <searchWindowConfig/>
