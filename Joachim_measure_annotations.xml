@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
     <meiHead xml:id="meiHead_b1484317">
         <fileDesc xml:id="fileDesc_6ccf6ca4">
@@ -20,7 +21,7 @@
                     </corpName>
                     <persName role="editor" xml:id="persName_b6a199cb"/>
                 </respStmt>
-                <date xml:id="date_cec9885f"/>
+                <date xml:id="date_cec9885f">vermutlich Anfang 1822</date>
                 <availability xml:id="availability_85676216">
                     <useRestrict xml:id="useRestrict_1282fde0"/>
                 </availability>
@@ -129,9 +130,9 @@
                         <titleStmt xml:id="titleStmt_bc8eb7ba">
                             <title xml:id="title_712f4d64" xml:lang="en"/>
                             <respStmt xml:id="respStmt_5544b0fd">
-                                <persName authURI="http://d-nb.info/gnd" authority="GND"
+                                <!--<persName authURI="http://d-nb.info/gnd" authority="GND"
                                     codedval="https://d-nb.info/gnd/118629662" role=""
-                                    xml:id="persName_d4f9facc">Weber, Carl Maria von</persName>
+                                    xml:id="persName_d4f9facc">Weber, Carl Maria von</persName>-->
                             </respStmt>
                         </titleStmt>
                         <incip xml:id="incip_1e9938b9">
