@@ -29,6 +29,16 @@
                             <name>Autograph Marte</name>
                         </names>
                     </navigatorItem>
+                    <navigatorItem sortNo="2" targets="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml">
+                        <names>
+                            <name>Druck Anita</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml">
+                        <names>
+                            <name>KA 2 Wien</name>
+                        </names>
+                    </navigatorItem>
                 </navigatorCategory>
             </navigatorDefinition>
             <searchWindowConfig/>
