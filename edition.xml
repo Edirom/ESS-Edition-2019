@@ -24,9 +24,9 @@
                     <names>
                         <name>Quellen</name>
                     </names>
-                    <navigatorItem sortNo="1" targets="xmldb:exist:///db/apps/ess-edition-2019/test.xml">
+                    <navigatorItem sortNo="1" targets="xmldb:exist:///db/apps/ess-edition-2019/autograph_marte.xml">
                         <names>
-                            <name>Druck_Schlesinger</name>
+                            <name>Autograph Marte</name>
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
