@@ -43,4 +43,149 @@
             </concordance>
         </work>
     </works>
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Freischütz</title>
+            </titleStmt>
+            <pubStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <corpName>
+                        <abbr/>
+                        <expan/>
+                        <address>
+                            <addrLine/>
+                            <addrLine>
+                                <ptr label="" xml:id="ptr_N20262"/>
+                            </addrLine>
+                        </address>
+                    </corpName>
+                    <persName role="editor"/>
+                </respStmt>
+                <date/>
+                <availability>
+                    <useRestrict/>
+                </availability>
+            </pubStmt>
+            <seriesStmt>
+                <title/>
+                <identifier type="file_collection"/>
+            </seriesStmt>
+            <sourceDesc>
+                <source label="" xml:id="source_103N20021">
+                    <identifier label=""/>
+                    <titleStmt>
+                        <title/>
+                    </titleStmt>
+                    <pubStmt>
+                        <publisher/>
+                        <pubPlace/>
+                        <date/>
+                    </pubStmt>
+                    <physDesc>
+                        <extent/>
+                        <dimensions/>
+                        <physMedium/>
+                    </physDesc>
+                    <classification>
+                        <termList>
+                            <term classcode="#DcmContentClass"/>
+                            <term classcode="#DcmPresentationClass"/>
+                            <term classcode="#DcmAuthorityClass"/>
+                            <term classcode="#DcmScoringClass"/>
+                            <term classcode="#DcmStateClass"/>
+                            <term classcode="#DcmCompletenessClass"/>
+                        </termList>
+                    </classification>
+                    <itemList/>
+                    <componentGrp/>
+                    <relationList>
+                        <relation label="" rel="isEmbodimentOf"/>
+                    </relationList>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application version="2013">
+                    <name>MerMEId</name>
+                </application>
+            </appInfo>
+            <projectDesc>
+                <p>Created using MerMEId</p>
+            </projectDesc>
+        </encodingDesc>
+        <workDesc>
+            <work analog="frbr:work" xml:id="work_5b5a0ea3">
+                <identifier label="" xml:id="identifier_af439ff5"/>
+                <titleStmt xml:id="titleStmt_5bd3abe6">
+                    <title xml:id="title_396ccfea" xml:lang="en">Freischütz</title>
+                    <title type="subordinate" xml:id="title_9c053b37" xml:lang="en">Autographe Partitur</title>
+                    <respStmt xml:id="respStmt_7a06e0df">
+                        <persName role="composer" xml:id="persName_bac299be">Carl Maria von Weber</persName>
+                    </respStmt>
+                </titleStmt>
+                <creation xml:id="creation_9d50b14f">
+                    <date isodate="1821-03-25" xml:id="date_dea0e35c">1821-03-25</date>
+                    <geogName xml:id="geogName_c33b971b"/>
+                </creation>
+                <history xml:id="history_47d74107">
+                    <p/>
+                </history>
+                <langUsage xml:id="langUsage_9e557acf">
+                    <language xml:id="en">English</language>
+                </langUsage>
+                <notesStmt xml:id="notesStmt_4ff647c1">
+                    <annot label="" type="links" xml:id="annot_2d4a2490">
+                        <ptr label="" mimetype="" xml:id="ptr_6ce51626"/>
+                    </annot>
+                    <annot label="Datierung" type="general_description" xml:id="annot_295a3e2b">
+                        <p>abgeschlossen am 13. Mai 1820 bzw. 25. März 1821 (nachkomponierte Nr. 13)</p>
+                    </annot>
+                </notesStmt>
+                <classification xml:id="classification_41cd8bc2">
+                    <classCode xml:id="DcmContentClass"/>
+                    <classCode xml:id="DcmPresentationClass"/>
+                    <classCode xml:id="DcmAuthorityClass"/>
+                    <classCode xml:id="DcmScoringClass"/>
+                    <classCode xml:id="DcmStateClass"/>
+                    <classCode xml:id="DcmCompletenessClass"/>
+                </classification>
+                <expressionList xml:id="expressionList_fd2d18e1">
+                    <expression analog="frbr:expression" xml:id="expression_32af69b6">
+                        <titleStmt xml:id="titleStmt_4d51b66d">
+                            <title xml:id="title_a900b918" xml:lang="en"/>
+                        </titleStmt>
+                        <incip xml:id="incip_961137a0"/>
+                        <creation xml:id="creation_7266c5a2">
+                            <date xml:id="date_2ffb0054"/>
+                            <geogName xml:id="geogName_0774c7f3"/>
+                        </creation>
+                        <history xml:id="history_5f6d94c6">
+                            <p/>
+                        </history>
+                        <perfMedium xml:id="perfMedium_88ab293e"/>
+                        <classification xml:id="classification_7c1e255e">
+                            <termList xml:id="termList_a761fc1a">
+                                <term xml:id="term_0cce7893"/>
+                            </termList>
+                        </classification>
+                        <componentGrp xml:id="componentGrp_1b7b1565"/>
+                        <relationList xml:id="relationList_10f48115"/>
+                    </expression>
+                </expressionList>
+            </work>
+        </workDesc>
+        <revisionDesc>
+            <change isodate="2019-09-05T14:58:29.381Z">
+                <respStmt>
+                    <resp/>
+                </respStmt>
+                <changeDesc>
+                    <p/>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
 </edition>
