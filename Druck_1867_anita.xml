@@ -1,21 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
-  <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-         </titleStmt>
-         <pubStmt/>
-      </fileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application isodate="2019-09-05T10:18:23.010Z" version="1.0.2">
-               <name>Deep Optical Measure Detector</name>
-               <p>Measures detected with Deep Optical Measure Detector</p>
-            </application>
-         </appInfo>
-      </encodingDesc>
-  </meiHead>
+      <meiHead>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Der Freischütz A</title>
+                  </titleStmt>
+                  <pubStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <corpName>
+                                    <abbr/>
+                                    <expan/>
+                                    <address>
+                                          <addrLine/>
+                                          <addrLine>
+                                                <ptr label="" xml:id="ptr_N20261"/>
+                                          </addrLine>
+                                    </address>
+                              </corpName>
+                              <persName role="editor"/>
+                        </respStmt>
+                        <date/>
+                        <availability>
+                              <useRestrict/>
+                        </availability>
+                  </pubStmt>
+                  <seriesStmt>
+                        <title/>
+                        <identifier type="file_collection"/>
+                  </seriesStmt>
+                  <sourceDesc>
+                        <source label="Druck_Schlesinger_1867" xml:id="source_98N20020">
+                              <identifier label=""/>
+                              <titleStmt>
+                                    <title>Der Freischütz</title>
+                              </titleStmt>
+                              <pubStmt>
+                                    <publisher/>
+                                    <pubPlace/>
+                                    <date/>
+                              </pubStmt>
+                              <physDesc>
+                                    <extent/>
+                                    <dimensions/>
+                                    <physMedium/>
+                              </physDesc>
+                              <classification>
+                                    <termList>
+                                          <term classcode="#DcmContentClass">notated music</term>
+                                          <term classcode="#DcmPresentationClass">print</term>
+                                          <term classcode="#DcmAuthorityClass">copy</term>
+                                          <term classcode="#DcmScoringClass">score</term>
+                                          <term classcode="#DcmStateClass">later edition</term>
+                                          <term classcode="#DcmCompletenessClass">complete</term>
+                                    </termList>
+                              </classification>
+                              <itemList xml:id="itemList_59f3fef4">
+                                    <item label="Druck_Schlesinger_1867" xml:id="item_8ef642e4">
+                                          <identifier label="" xml:id="identifier_4c40c907"/>
+                                          <physDesc xml:id="physDesc_bfea1d93"/>
+                                          <physLoc xml:id="physLoc_72df3eb3">
+                                                <repository xml:id="repository_914538b2">
+                                                      <corpName xml:id="corpName_ef5717fa">Stabiberlin</corpName>
+                                                      <geogName xml:id="geogName_c24ce47a">Berlin</geogName>
+                                                      <identifier authURI="http://www.rism.info" authority="RISM" xml:id="identifier_033fa15e">D-B</identifier>
+                                                </repository>
+                                                <identifier xml:id="identifier_5fcc670f"/>
+                                          </physLoc>
+                                          <componentGrp xml:id="componentGrp_0bde7395"/>
+                                    </item>
+                              </itemList>
+                              <componentGrp/>
+                              <relationList>
+                                    <relation label="" rel="isEmbodimentOf"/>
+                              </relationList>
+                        </source>
+                  </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                  <appInfo>
+                        <application version="2013">
+                              <name>MerMEId</name>
+                        </application>
+                  </appInfo>
+                  <projectDesc>
+                        <p>Created using MerMEId</p>
+                  </projectDesc>
+            </encodingDesc>
+            <workDesc>
+                  <work analog="frbr:work" xml:id="work_98N2004D">
+                        <identifier label="" xml:id="identifier_f85c245a"/>
+                        <titleStmt xml:id="titleStmt_6f23fd93">
+                              <title xml:id="title_67c5bfa2" xml:lang="de">Der Freischütz A</title>
+                              <title type="text_source" xml:id="title_569943da" xml:lang="de">Druck</title>
+                              <respStmt xml:id="respStmt_2494ac66">
+                                    <persName cert="high" role="composer" xml:id="persName_a0e7169a">Carl Maria von Weber</persName>
+                              </respStmt>
+                        </titleStmt>
+                        <creation xml:id="creation_36486364">
+                              <date xml:id="date_b2284ce6"/>
+                              <geogName xml:id="geogName_c66b218e"/>
+                        </creation>
+                        <history xml:id="history_5f7d2adc">
+                              <p/>
+                        </history>
+                        <langUsage xml:id="langUsage_5958c03c">
+                              <language xml:id="de">German</language>
+                              <language xml:id="en">English</language>
+                        </langUsage>
+                        <notesStmt xml:id="notesStmt_c5cfff56">
+                              <annot label="" type="links" xml:id="annot_68b5dac4">
+                                    <ptr label="" mimetype="" xml:id="ptr_3a8d0893"/>
+                              </annot>
+                              <annot label="" type="general_description" xml:id="annot_60fac9e2"/>
+                        </notesStmt>
+                        <classification xml:id="classification_a74b30e5">
+                              <classCode xml:id="DcmContentClass"/>
+                              <classCode xml:id="DcmPresentationClass"/>
+                              <classCode xml:id="DcmAuthorityClass"/>
+                              <classCode xml:id="DcmScoringClass"/>
+                              <classCode xml:id="DcmStateClass"/>
+                              <classCode xml:id="DcmCompletenessClass"/>
+                        </classification>
+                        <expressionList xml:id="expressionList_801a524c">
+                              <expression analog="frbr:expression" xml:id="expression_98N20077">
+                                    <titleStmt xml:id="titleStmt_63a14b07">
+                                          <title xml:id="title_a5af1d94" xml:lang="en"/>
+                                    </titleStmt>
+                                    <incip xml:id="incip_36987bf0"/>
+                                    <creation xml:id="creation_d6a4792a">
+                                          <date xml:id="date_0d1ac85a"/>
+                                          <geogName xml:id="geogName_01fa32f4"/>
+                                    </creation>
+                                    <history xml:id="history_cc016b06">
+                                          <p/>
+                                    </history>
+                                    <perfMedium xml:id="perfMedium_15e7456f"/>
+                                    <classification xml:id="classification_97200b4a">
+                                          <termList xml:id="termList_86ab55bc">
+                                                <term xml:id="term_711bfcab"/>
+                                          </termList>
+                                    </classification>
+                                    <componentGrp xml:id="componentGrp_15655daf"/>
+                                    <relationList xml:id="relationList_c8ae32e0"/>
+                              </expression>
+                        </expressionList>
+                        <relationList xml:id="relationList_9097591c">
+                              <relation label="" rel="isPartOf" xml:id="relation_a7819f8d"/>
+                        </relationList>
+                  </work>
+            </workDesc>
+            <revisionDesc>
+                  <change isodate="2019-09-05T15:04:55.973Z">
+                        <respStmt>
+                              <resp/>
+                        </respStmt>
+                        <changeDesc>
+                              <p/>
+                        </changeDesc>
+                  </change>
+            </revisionDesc>
+      </meiHead>
   <music>
       <facsimile>
          <surface xml:id="surface_01DM0EX9EVG8MSQXKCYZ8RYTSA"
@@ -25,7 +170,7 @@
                   lrx="1199"
                   lry="1567">
             <graphic xml:id="graphic_01DM0EX9FCT2SM6VTXDEAD2BSH"
-                     target="Freischütz Seite 1.jpg"
+                  target="sources/D1867/C_07_D_1864_Cl_IV4_00000011.jpg"
                      width="1200"
                      height="1568"
                      type="facsimile"/>
@@ -73,7 +218,7 @@
                   lrx="1199"
                   lry="1550">
             <graphic xml:id="graphic_01DM0EX9GT5B745M4A1DMAVWBD"
-                     target="Freischütz Seite 2.jpg"
+                  target="sources/D1867/C_07_D_1864_Cl_IV4_00000012.jpg"
                      width="1200"
                      height="1551"
                      type="facsimile"/>
@@ -151,7 +296,7 @@
                   lrx="1199"
                   lry="1540">
             <graphic xml:id="graphic_01DM0EX9JK6PB6Y4A9J4PF2K8F"
-                     target="Freischütz Seite 3.jpg"
+                  target="sources/D1867/C_07_D_1864_Cl_IV4_00000013.jpg"
                      width="1200"
                      height="1541"
                      type="facsimile"/>
@@ -211,7 +356,7 @@
                   lrx="1199"
                   lry="1550">
             <graphic xml:id="graphic_01DM0EX9KY1PV2AFKNEGN9H7CG"
-                     target="Freischütz Seite 4.jpg"
+                  target="sources/D1867/C_07_D_1864_Cl_IV4_00000014.jpg"
                      width="1200"
                      height="1551"
                      type="facsimile"/>
@@ -265,7 +410,7 @@
                   lrx="1199"
                   lry="1541">
             <graphic xml:id="graphic_01DM0EX9NKBR9V983CF8VMSVE1"
-                     target="Freischütz Seite 5.jpg"
+                  target="sources/D1867/C_07_D_1864_Cl_IV4_00000015.jpg"
                      width="1200"
                      height="1542"
                      type="facsimile"/>
