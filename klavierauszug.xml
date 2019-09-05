@@ -141,7 +141,7 @@
         <facsimile>
             <surface xml:id="surface_01DM0F1BSMD4RMHF5FPB0QZ2YW" n="1" ulx="0" uly="0" lrx="999"
                 lry="796">
-                <graphic xml:id="graphic_01DM0F1BSYN0N0MXEZ3FWN33X3" target="KA_01.jpg" width="1000"
+                <graphic xml:id="graphic_01DM0F1BSYN0N0MXEZ3FWN33X3" target="sources/ED-kl1-neu/ED-kl_00000009.jpg" width="1000"
                     height="797" type="facsimile"/>
                 <zone xml:id="zone_01DM0F1BT1D425JEWEYTNB6K05" type="measure" ulx="466" uly="141"
                     lrx="510" lry="235"/>
@@ -200,7 +200,7 @@
             </surface>
             <surface xml:id="surface_01DM0F1BTZ6CN86R91YVG0Z4MF" n="2" ulx="0" uly="0" lrx="999"
                 lry="796">
-                <graphic xml:id="graphic_01DM0F1BV0AVB4FX9SK14EG0NP" target="KA_02.jpg" width="1000"
+                <graphic xml:id="graphic_01DM0F1BV0AVB4FX9SK14EG0NP" target="sources/ED-kl1-neu/ED-kl_00000010.jpg" width="1000"
                     height="797" type="facsimile"/>
                 <zone xml:id="zone_01DM0F1BV0R561Z707DJAJQ5Q5" type="measure" ulx="145" uly="114"
                     lrx="265" lry="219"/>

@@ -29,7 +29,7 @@
                             <name>Test</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/KA 2 A Wn.xml" >
+                    <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml" >
                         <names>
                             Kopistenabschrift 2 Wien, Österreich
                         </names>
