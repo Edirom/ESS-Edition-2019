@@ -1,20 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei">
-    <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title/>
+  <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xl="http://www.w3.org/1999/xlink" meiversion="3.0.0" xml:id="mei_3a10b315">
+    <meiHead xml:id="meiHead_98a6cdcf">
+      <fileDesc xml:id="fileDesc_ecca7c13">
+        <titleStmt xml:id="titleStmt_e97f012f">
+          <title xml:id="title_e5436482">Der Freischütz Wn</title>
+        </titleStmt>
+        <pubStmt xml:id="pubStmt_082298ec">
+          <respStmt xml:id="respStmt_a1099e3e">
+            <resp xml:id="resp_d2513dc0">Publisher</resp>
+            <corpName xml:id="corpName_378ae35c">
+              <abbr xml:id="abbr_77bad20b"/>
+              <expan xml:id="expan_9a85bf18"/>
+              <address xml:id="address_19582866">
+                <addrLine xml:id="addrLine_9737e290"/>
+                <addrLine xml:id="addrLine_d0388d9a">
+                  <ptr label="" xml:id="ptr_0b01f90e"/>
+                </addrLine>
+              </address>
+            </corpName>
+            <persName role="editor" xml:id="persName_05b1f3f0"/>
+          </respStmt>
+          <date xml:id="date_54511f6a"/>
+          <availability xml:id="availability_87ae0fe3">
+            <useRestrict xml:id="useRestrict_ccef01d2"/>
+          </availability>
+        </pubStmt>
+        <seriesStmt xml:id="seriesStmt_3fc99688">
+          <title xml:id="title_68b2f17e"/>
+          <identifier type="file_collection" xml:id="identifier_5422f030"/>
+        </seriesStmt>
+        <sourceDesc xml:id="sourceDesc_96246f55">
+          <source label="" xml:id="source_b4f3dbf2">
+            <identifier label="" xml:id="identifier_da360859"/>
+            <titleStmt xml:id="titleStmt_d176908d">
+              <title xml:id="title_446faaf1">Kopistenabschrift 2 Wien, Österreich</title>
             </titleStmt>
-            <pubStmt/>
-        </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application isodate="2019-09-05T10:15:29.342Z" version="1.0.2">
-                    <name>Deep Optical Measure Detector</name>
-                    <p>Measures detected with Deep Optical Measure Detector</p>
-                </application>
-            </appInfo>
-        </encodingDesc>
+            <pubStmt xml:id="pubStmt_c902622c">
+              <publisher xml:id="publisher_d35bee6e"/>
+              <pubPlace xml:id="pubPlace_6f54505e"/>
+              <date xml:id="date_85d054fa"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_5836591b">
+              <extent xml:id="extent_6d55ca44"/>
+              <dimensions xml:id="dimensions_533dbc7e"/>
+              <physMedium xml:id="physMedium_61dd2b36"/>
+            </physDesc>
+            <classification xml:id="classification_ec984b92">
+              <termList xml:id="termList_6fcd1aab">
+                <term classcode="#DcmContentClass" xml:id="term_81c1c975"/>
+                <term classcode="#DcmPresentationClass" xml:id="term_b6a0be00"/>
+                <term classcode="#DcmAuthorityClass" xml:id="term_212f01cf"/>
+                <term classcode="#DcmScoringClass" xml:id="term_0e03c477"/>
+                <term classcode="#DcmStateClass" xml:id="term_cf8f84fb"/>
+                <term classcode="#DcmCompletenessClass" xml:id="term_925340da"/>
+              </termList>
+            </classification>
+            <itemList xml:id="itemList_fbd0ed88">
+              <item label="Kopistenabschrift 2: Wien, Österreich Band 1" xml:id="item_a4ab0621">
+                <identifier label="" xml:id="identifier_a9e2de28"/>
+                <physDesc xml:id="physDesc_a6c2575a">
+                  <condition xml:id="condition_645f005d">Okay.</condition>
+                  <titlePage label="Titlepage KA 2 A Wn Bd 1" xml:id="titlePage_e203ce99">
+                    <p>Der Freyschürtz.</p>
+                    <p>Romantische Oper in drey Aufzügen</p>
+                    <p>Gedicht, von Fried: Kind.</p>
+                    <p>Music, von Carl Maria von Weber</p>
+                  </titlePage>
+                  <extent unit="page" xml:id="extent_f4edec8a">209</extent>
+                  <handList xml:id="handList_f2621a39">
+                    <hand initial="true" medium="black ink" xml:id="hand_49789805">Kopist 1</hand>
+                  </handList>
+                  <physMedium xml:id="physMedium_05b01872">Schwarze Tinte auf Papier.</physMedium>
+                </physDesc>
+                <physLoc xml:id="physLoc_754adcbb">
+                  <repository xml:id="repository_8a953fb2">
+                    <corpName xml:id="corpName_43e94435">Österreichische Nationalbibliothek</corpName>
+                    <geogName xml:id="geogName_212f2e96">Wien</geogName>
+                    <identifier authURI="http://www.rism.info" authority="RISM" xml:id="identifier_b97541b4">A-Wn</identifier>
+                  </repository>
+                  <identifier xml:id="identifier_127b0cba"/>
+                  <provenance xml:id="provenance_97045ad1"/>
+                </physLoc>
+                <notesStmt xml:id="notesStmt_df1a9927">
+                  <annot type="source_description" xml:id="annot_ab4d8f09">
+                    <p>Hs. ohne Datum.</p>
+                  </annot>
+                  <annot type="links" xml:id="annot_cc4629f4">
+                    <ptr label="" mimetype="" xml:id="ptr_db170ec6"/>
+                  </annot>
+                </notesStmt>
+                <componentGrp xml:id="componentGrp_56cb266c"/>
+              </item>
+            </itemList>
+            <componentGrp xml:id="componentGrp_7f3390b7"/>
+            <relationList xml:id="relationList_c8934a12">
+              <relation label="" rel="isEmbodimentOf" xml:id="relation_b9df1898"/>
+            </relationList>
+          </source>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_466cb0c9">
+        <appInfo xml:id="appInfo_4439f59c">
+          <application version="2013" xml:id="application_dcb8d549">
+            <name xml:id="name_66844ffb">MerMEId</name>
+          </application>
+        </appInfo>
+        <projectDesc xml:id="projectDesc_56aadb38">
+          <p>Created using MerMEId</p>
+        </projectDesc>
+      </encodingDesc>
+      <workDesc xml:id="workDesc_3a5b718c">
+        <work analog="frbr:work" xml:id="work_2e655dc8">
+          <identifier label="" xml:id="identifier_8b6a853f"/>
+          <titleStmt xml:id="titleStmt_76b022da">
+            <title xml:id="title_966a7bd4" xml:lang="de">Der Freischütz Wn</title>
+            <title type="alternative" xml:id="title_88255068" xml:lang="de">Der Probeschuß</title>
+            <title type="alternative" xml:id="title_3990fe27" xml:lang="de">Die Jägerbraut</title>
+            <respStmt xml:id="respStmt_a1402115">
+              <persName role="composer" xml:id="persName_3ad607e3">Weber</persName>
+            </respStmt>
+          </titleStmt>
+          <creation xml:id="creation_1827ecf9">
+            <date xml:id="date_e3ea4f09"/>
+            <geogName xml:id="geogName_b4790304"/>
+          </creation>
+          <history xml:id="history_2c8deb9e">
+            <p/>
+          </history>
+          <langUsage xml:id="langUsage_d6dfee1a">
+            <language xml:id="de">German</language>
+            <language xml:id="en">English</language>
+          </langUsage>
+          <notesStmt xml:id="notesStmt_95f75204">
+            <annot label="" type="links" xml:id="annot_b426ff9d">
+              <ptr label="" mimetype="" xml:id="ptr_50e04527"/>
+            </annot>
+          </notesStmt>
+          <classification xml:id="classification_c091f52b">
+            <classCode xml:id="DcmContentClass"/>
+            <classCode xml:id="DcmPresentationClass"/>
+            <classCode xml:id="DcmAuthorityClass"/>
+            <classCode xml:id="DcmScoringClass"/>
+            <classCode xml:id="DcmStateClass"/>
+            <classCode xml:id="DcmCompletenessClass"/>
+          </classification>
+          <expressionList xml:id="expressionList_62729412">
+            <expression analog="frbr:expression" xml:id="expression_81bb0ed0">
+              <titleStmt xml:id="titleStmt_792043f9">
+                <title xml:id="title_f3a9a3d9" xml:lang="en"/>
+              </titleStmt>
+              <incip xml:id="incip_5e6b009d"/>
+              <tempo xml:id="tempo_32e9ab72">Adagio</tempo>
+              <key mode="major" pname="c" xml:id="key_b92519c9"/>
+              <meter sym="common" xml:id="meter_e264d163"/>
+              <creation xml:id="creation_171f742b">
+                <date xml:id="date_194900a9"/>
+                <geogName xml:id="geogName_bea1efc1"/>
+              </creation>
+              <history xml:id="history_9af22c84">
+                <p/>
+              </history>
+              <perfMedium xml:id="perfMedium_c8d83246"/>
+              <extent xml:id="extent_48a8f775"/>
+              <classification xml:id="classification_48058264">
+                <termList xml:id="termList_615bcd4b">
+                  <term xml:id="term_60c291d2"/>
+                </termList>
+              </classification>
+              <componentGrp xml:id="componentGrp_e0e81bb6"/>
+              <relationList xml:id="relationList_7bd6e75c"/>
+            </expression>
+          </expressionList>
+        </work>
+      </workDesc>
+      <revisionDesc>
+        <change isodate="2019-09-05T14:38:09.237Z" xml:id="change_2a8bc108">
+          <respStmt xml:id="respStmt_3a5bd83e">
+            <resp xml:id="resp_195e62c5"/>
+          </respStmt>
+          <changeDesc xml:id="changeDesc_5d1a7b7f">
+            <p xml:id="p_163fe92f"/>
+          </changeDesc>
+        </change>
+      </revisionDesc>
     </meiHead>
     <music>
         <facsimile>
@@ -25,7 +193,7 @@
                   lrx="1883"
                   lry="1475">
                 <graphic xml:id="graphic_01DM0EQZTGP8WE5A07GYWVNB4N"
-                  target="https://digilib.freischuetz-digital.de/Scaler/sources/KA2/KA2_Akt1_008.jpg?dw=1884&amp;mo=fit&amp;type=.jpg"
+                  target="sources/KA2/KA2_Akt1_008.jpg"
                      width="1884"
                      height="1476"
                      type="facsimile"/>
@@ -73,7 +241,7 @@
                   lrx="2008"
                   lry="1480">
                 <graphic xml:id="graphic_01DM0EQZTX9GHNXRKH6YAQVQJ1"
-                  target="https://digilib.freischuetz-digital.de/Scaler/sources/KA2/KA2_Akt1_009.jpg?dw=1884&amp;mo=fit&amp;type=.jpg"
+                  target="sources/KA2/KA2_Akt1_009.jpg"
                      width="2009"
                      height="1481"
                      type="facsimile"/>
@@ -127,7 +295,7 @@
                   lrx="1946"
                   lry="1475">
                 <graphic xml:id="graphic_01DM0EQZV5KZYCQJWEPCDBQ6EW"
-                  target="https://digilib.freischuetz-digital.de/Scaler/sources/KA2/KA2_Akt1_010.jpg?dw=1884&amp;mo=fit&amp;type=.jpg"
+                  target="sources/KA2/KA2_Akt1_010.jpg"
                      width="1947"
                      height="1476"
                      type="facsimile"/>
@@ -181,7 +349,7 @@
                   lrx="1966"
                   lry="1463">
                 <graphic xml:id="graphic_01DM0EQZVA4JBMTHFCF5F4XDS5"
-                  target="https://digilib.freischuetz-digital.de/Scaler/sources/KA2/KA2_Akt1_011.jpg?dw=1884&amp;mo=fit&amp;type=.jpg"
+                  target="sources/KA2/KA2_Akt1_011.jpg"
                      width="1967"
                      height="1464"
                      type="facsimile"/>
@@ -235,7 +403,7 @@
                   lrx="1946"
                   lry="1475">
                 <graphic xml:id="graphic_01DM0EQZVMCSNZ43C222ZCJKKX"
-                  target="https://digilib.freischuetz-digital.de/Scaler/sources/KA2/KA2_Akt1_012.jpg?dw=1884&amp;mo=fit&amp;type=.jpg"
+                  target="sources/KA2/KA2_Akt1_012.jpg"
                      width="1947"
                      height="1476"
                      type="facsimile"/>
