@@ -4,9 +4,9 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title/>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <pubStmt/>
         </fileDesc>
         <workDesc>
             <work>
@@ -15,14 +15,66 @@
                 </titleStmt>
                 <notesStmt>
                     <annot type="criticalCommentary">
-                        <annot xml:id="a1"
-                            type="editorialComment"
+                        <annot xml:id="a1" type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml#measure_01DM0EQZTK1PE2CQ9386HPYGZA">
-                            <title>Test-Anmerkung</title>
-                            <p>Dies ist eine Test-Anmerkung</p>
+                            <title>Das gemütlichste Adagio</title>
+                            <p>Adagio, also gemütlich, ist hier bitte wörtlich zu nehmen; dem
+                                koffeinabhängigen Gemüt entsprechend, ist das Tempo auch vom
+                                Blutdruck abhängig. <lb/> Für eine authentische Aufführungspraxis
+                                ist Dirigentinnen und Dirigenten empfohlen, vor der Aufführung -
+                                sowie vor jeder Probe - mindestens fünf Tassen à 250ml, sprich 1,25l
+                                Kaffee zu sich zu nehmen. <lb/> Nota bene, dass also mit einem
+                                kontinuierlichen Accelerando zu rechnen ist, da der Blasendruck des
+                                Dirigenten kontinuierlich erhöhen muss.<lb/></p>
                             <ptr type="priority" target="#ediromAnnotPrio1"/>
                             <ptr type="categories"
-                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_tempo"/>
+                        </annot>
+                    </annot>
+                    <annot type="criticalCommentary">
+                        <annot xml:id="a2" type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml#measure_01DM0EQZTT16BEC1A7M28ZHXC2">
+                            <title>Der verdächtige Kaffefleck</title>
+                            <p>Der Kaffeefleck zwischen Violoncello und Violinen weist auf eine
+                                latetente Koffein-Sucht des Kopisten hin. <lb/> Vielleicht können
+                                wir sogar davon ausgehen, dass er seine Tinte mit Kaffee angerührt
+                                hat, was den Geruch des Manuskripts erklären würde. <lb/>
+                                Nachfolgende Generationen müssen ihm danken, dass er seinen Kaffee
+                                weder mit Milch noch Zucker getrunken hat.</p>
+                            <ptr type="priority" target="#ediromAnnotPrio2"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_partWriting"
+                            />
+                        </annot>
+                    </annot>
+                    <annot type="criticalCommentary">
+                        <annot xml:id="a3" type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml#measure_01DM0EQZV16H31ECAKDAAMSVKE">
+                            <title>Der kontinuierliche Kaffefleck</title>
+                            <p>Es zeigt sich, dass der Kopist sich ebenfalls - um in das richtige
+                                Mindset zu kommen - ebenso an die Empfehlung für die Dirigenten
+                                gehalten hat. <lb/> Der koffein-induzierte Tremor wird ab hier immer
+                                deutlicher. Man könnte schlussfolgern, dass jeder Kaffeefleck mit
+                                einem Neu-Auffüllen einer Kaffeetasse, im steten Vertrauen auf die
+                                Oberflächenspannung, also mit Berg, korreliert. <lb/> Eine
+                                mehrfaktorielle Kovarianzanalyse hat dabei bewiesen, dass diese
+                                Spekulation Spekulation bleibt.</p>
+                            <ptr type="priority" target="#ediromAnnotPrio2"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_partWriting"
+                            />
+                        </annot>
+                    </annot>
+                    <annot type="criticalCommentary">
+                        <annot xml:id="a4" type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml#measure_01DM0EQZV0EN166GT9E9PPG1TF">
+                            <title>Bitte, leise!</title>
+                            <p>Das Pianissimo in diesem Takt ist eine willkürliche Einfügung des Kopisten. Generationen von Dirigenten danken es ihm jedoch: <lb/>
+                            Spätestens hier ist mit einem starekn einsetzenden Kopfschmerz zu rechnen. Migräne-artig angefressen war es des Kopisten Intution an dieser Stelle in vorauseilender Vorsorge das "Leise, Bitte!" einzubauen</p>
+                            <ptr type="priority" target="#ediromAnnotPrio2"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_dynam"
+                            />
                         </annot>
                     </annot>
                 </notesStmt>
@@ -78,7 +130,7 @@
                             <name xml:lang="en">Articulation</name>
                             <name xml:lang="de">Artikulation</name>
                         </term>
-                        
+
                         <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_agogics">
                             <name xml:lang="en">Agogics</name>
                             <name xml:lang="de">Agogik</name>
