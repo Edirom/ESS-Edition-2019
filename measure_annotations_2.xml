@@ -173,6 +173,8 @@
                      width="1200"
                      height="1568"
                      type="facsimile"/>
+              <zone xml:id="zone_a1" type="annotation" ulx="100" uly="100" lrx="100"
+                lry="100"/>
                 <zone xml:id="zone_01DM0EQX2BQGGHT3WMD8H68NZ0"
                   type="measure"
                   ulx="243"
