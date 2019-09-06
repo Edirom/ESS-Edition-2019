@@ -24,7 +24,7 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
-                        <annot xml:id="a1"
+                        <annot xml:id="a2"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#measure_01DM0EX9FMF4YYE2892PM9P499">
                             <title>Violin 1</title>
@@ -32,6 +32,24 @@
                             <ptr type="priority" target="#ediromAnnotPrio1"/>
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
+                        <annot xml:id="a3"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#measure_01DM0EX9GBMPTW3739N56KTG5P">
+                            <title>Text 2</title>
+                            <p>Text2</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                            <annot xml:id="a4"
+                                type="editorialComment"
+                                plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#measure_01DM0EX9HHJE8A70QGH8SGT237">
+                                <title>flasche töne</title>
+                                <p>fagott cis statt d</p>
+                                <ptr type="priority" target="#ediromAnnotPrio1"/>
+                                <ptr type="categories"
+                                    target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                            </annot>
                         </annot>
                     </annot>
                 </notesStmt>
