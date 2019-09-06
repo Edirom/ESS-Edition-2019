@@ -43,6 +43,15 @@
                                 <ptr type="categories"
                                     target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                             </annot>
+                            <annot xml:id="a4"
+                                type="editorialComment"
+                                plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#zone_a1">
+                                <title>Test-Anmerkung 3</title>
+                                <p>Andante statt Adagio</p>
+                                <ptr type="priority" target="#ediromAnnotPrio1"/>
+                                <ptr type="categories"
+                                    target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                            </annot>
                         </annot>
                     </annot>
                 </notesStmt>

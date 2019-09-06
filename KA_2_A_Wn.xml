@@ -193,6 +193,8 @@
         lry="1475">
         <graphic xml:id="graphic_01DM0EQZTGP8WE5A07GYWVNB4N" target="sources/KA2/KA2_Akt1_008.jpg"
           width="1884" height="1476" type="facsimile"/>
+        <zone xml:id="zone_x1" type="annotation" ulx="200" uly="200" lrx="600"
+          lry="600"/>
         <zone xml:id="zone_01DM0EQZTJ45QFQGNR87HDPKF4" type="measure" ulx="119" uly="85" lrx="654"
           lry="1398"/>
         <zone xml:id="zone_01DM0EQZTK5ZD6RM63X91SZJG9" type="measure" ulx="589" uly="132" lrx="834"
