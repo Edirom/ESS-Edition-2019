@@ -38,7 +38,7 @@
                         </annot>
                         <annot xml:id="a4"
                             type="editorialComment"
-                            plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#zona_a1">
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#zone_a1">
                             <title>Dynamik</title>
                             <p>Zona_a1 Test</p>
                             <ptr type="priority" target="#ediromAnnotPrio1"/>
