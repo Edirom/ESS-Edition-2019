@@ -24,7 +24,7 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
-                        <annot xml:id="a1"
+                        <annot xml:id="a2"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#measure_01DM0EX9FMF4YYE2892PM9P499">
                             <title>Violin 1</title>
@@ -33,7 +33,7 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
-                        <annot xml:id="a1"
+                        <annot xml:id="a3"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#zone_01DM0EX9G8X0DR09ZP0E9MNS2P">
                             <title>Text 2</title>
