@@ -24,6 +24,15 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
+                        <annot xml:id="a3"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#measure_01DM0EX9FMF4YYE2892PM9P499">
+                            <title>Violin 1</title>
+                            <p>Viertel notiert statt viertel mit punkt</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
                     </annot>
                 </notesStmt>
                 <classification>
