@@ -33,6 +33,15 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
+                        <annot xml:id="a1"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_1867_anita.xml#zone_01DM0EX9G8X0DR09ZP0E9MNS2P">
+                            <title>Text 2</title>
+                            <p>Text2</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
                     </annot>
                 </notesStmt>
                 <classification>
