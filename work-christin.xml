@@ -18,8 +18,8 @@
                         <annot xml:id="a1"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#measure_01DM0EQX2BW0TDA90RR0WHXAE0">
-                            <title>Test-Anmerkung</title>
-                            <p>Dies ist eine Test-Anmerkung</p>
+                            <title>Artikulation</title>
+                            <p>Ob. in A ohne Akzent, Akzent ergänzt nach DSchlesinger1867</p>
                             <ptr type="priority" target="#ediromAnnotPrio1"/>
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
