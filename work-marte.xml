@@ -44,6 +44,15 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_articulation #ediromAnnotCategory_tie"/>
                         </annot>
+                        <annot xml:id="a23"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/Autograph_marte.xml#zone_a14">
+                            <title>Anmerkung 3</title>
+                            <p>Diese Anmerkung ist auf eine Zone bezogen; ebenfalls neu und ohne Inhalt.</p>
+                            <ptr type="priority" target="#ediromAnnotPrio3"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_articulation #ediromAnnotCategory_tie"/>
+                        </annot>
                     </annot>
                 </notesStmt>
                 <classification>

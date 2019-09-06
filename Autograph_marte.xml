@@ -95,6 +95,12 @@
                   uly="414"
                   lrx="1091"
                   lry="1482"/>
+              <zone xml:id="zone_a14"
+                type="annotation"
+                ulx="200"
+                uly="200"
+                lrx="1000"
+                lry="1000"/>
                 <zone xml:id="zone_01DM0ESG76DFS09PQCZVZXEEE7"
                   type="measure"
                   ulx="1045"
