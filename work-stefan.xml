@@ -32,6 +32,16 @@
                         </annot>
                     </annot>
                     <annot type="criticalCommentary">
+                        <annot xml:id="b1" type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml#zone_x1">
+                            <title>The Smallest of Kästchens</title>
+                            <p>Ganz kleines angemerktes Kästchen.<lb/></p>
+                            <ptr type="priority" target="#ediromAnnotPrio3"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_tempo"/>
+                        </annot>
+                    </annot>
+                    <annot type="criticalCommentary">
                         <annot xml:id="a2" type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml#measure_01DM0EQZTT16BEC1A7M28ZHXC2">
                             <title>Der verdächtige Kaffefleck</title>

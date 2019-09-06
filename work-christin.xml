@@ -35,6 +35,24 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
+                        <annot xml:id="a3"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#measure_01DM0EQX2GS69G7P05KERWJ6XJ">
+                            <title>Dynamik</title>
+                            <p>kein forte in Vl. II in T. 9 in Quelle A, forte ergänzt nach DSchlesinger1867 in pp</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
+                        <annot xml:id="a3"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#zona_a1">
+                            <title>Dynamik</title>
+                            <p>Zona_a1 Test</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
                     </annot>
                 </notesStmt>
                 <classification>
