@@ -25,6 +25,17 @@
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
                     </annot>
+                    <annot type="criticalCommentary">
+                        <annot xml:id="a1m4"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/Autograph_marte.xml#measure_01DM0ESG78EXEWKJXNRSKKAQWM">
+                            <title>Dynamik</title>
+                            <p>In Vl 1 steht kein <rend fontstyle="italic">pp</rend></p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_dynam"/>
+                        </annot>
+                    </annot>
                 </notesStmt>
                 <classification>
                     <classCode xml:id="ediromCategory"/>
