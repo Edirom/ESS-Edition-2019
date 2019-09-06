@@ -36,7 +36,7 @@
                             </annot>
                             <annot xml:id="a3"
                                 type="editorialComment"
-                                plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#measure_01DM0GE0BFTCPVPHQJAX8VJVAC">
+                                plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#measure_01DM0GE0BT5HZ5DV8FVEQSGH16">
                                 <title>Test-Anmerkung 3</title>
                                 <p>In T. 18 endet der Bogen in den Corni in F vor dem Taktstrich</p>
                                 <ptr type="priority" target="#ediromAnnotPrio1"/>
