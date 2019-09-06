@@ -28,8 +28,17 @@
                     <annot xml:id="a2"
                         type="editorialComment"
                         plist="xmldb:exist:///db/apps/ess-edition-2019/Schlesinger_1867_Mayer.xml#measure_01DM0EQX2FZ2YWCHJB58HQST23">
-                        <title>Test-Anmerkung</title>
+                        <title>Test-Anmerkung 2</title>
                         <p>Dies ist die zweite Test-Anmerkung</p>
+                        <ptr type="priority" target="#ediromAnnotPrio1"/>
+                        <ptr type="categories"
+                            target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                    </annot>
+                    <annot xml:id="a3"
+                        type="editorialComment"
+                        plist="xmldb:exist:///db/apps/ess-edition-2019/Schlesinger_1867_Mayer.xml#measure_01DM0EQX2HC6QAGE3W8VGKEF2Y">
+                        <title>Test-Anmerkung 3</title>
+                        <p>Test-Anmerkung 3</p>
                         <ptr type="priority" target="#ediromAnnotPrio1"/>
                         <ptr type="categories"
                             target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
