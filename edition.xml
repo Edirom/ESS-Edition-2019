@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edition xmlns="http://www.edirom.de/ns/1.3" xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ess-edition-2019-orig">
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ess-edition-2019">
     <editionName>Workflows und Tools im Kontext digitaler Editionen</editionName>
     <languages>
         <language xml:lang="de" complete="true"/>
@@ -36,15 +36,30 @@
                     </navigatorItem>
                     <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/KA_2_A_Wn.xml">
                         <names>
-                            <name>KA 2 Wien</name>
+                            <name>Kopistenabschrift Stefan</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml">
+                    <navigatorItem sortNo="4" targets="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml">
                         <names>
                             <name>Druck Ulrich</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem sortNo="3" targets="xmldb:exist:///db/apps/ess-edition-2019/klavierauszug.xml">
+                    <navigatorItem sortNo="5" targets="xmldb:exist:///db/apps/ess-edition-2019/Joachim_measure_annotations.xml">
+                        <names>
+                            <name>Kopistenabschrift Joachim</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem sortNo="6" targets="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml">
+                        <names>
+                            <name>Quelle Christin</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem sortNo="7" targets="xmldb:exist:///db/apps/ess-edition-2019/Schlesinger_1867_Mayer.xml">
+                        <names>
+                            <name>Druck Desiree</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem sortNo="8" targets="xmldb:exist:///db/apps/ess-edition-2019/klavierauszug.xml">
                         <names>
                             <name>ED-kl Ina</name>
                         </names>

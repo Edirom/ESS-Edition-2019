@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <pubStmt></pubStmt>
+        </fileDesc>
+        <workDesc>
+            <work>
+                <titleStmt>
+                    <title>Der Freischütz – Ulrich</title>
+                </titleStmt>
+                <notesStmt>
+                    <annot type="criticalCommentary">
+                        <annot xml:id="a1"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#measure_01DM0GE0BEZG5818T6SSZTDKXV">
+                            <title>Test-Anmerkung</title>
+                            <p>Dies ist eine Test-Anmerkung</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
+                    </annot>
+                </notesStmt>
+                <classification>
+                    <classCode xml:id="ediromCategory"/>
+                    <classCode xml:id="ediromPriority"/>
+                    <termList classcode="#ediromCategory">
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_dir">
+                            <name xml:lang="en">Directive</name>
+                            <name xml:lang="de">Spielanweisung</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_dynam">
+                            <name xml:lang="en">Dynamics</name>
+                            <name xml:lang="de">Dynamik</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_slur">
+                            <name xml:lang="en">Slurs</name>
+                            <name xml:lang="de">Bogensetzung</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_articulation">
+                            <name xml:lang="en">Articulation</name>
+                            <name xml:lang="de">Artikulation</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_pitch">
+                            <name xml:lang="en">Pitch</name>
+                            <name xml:lang="de">Tonhöhe</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_dur">
+                            <name xml:lang="en">Rhythm</name>
+                            <name xml:lang="de">Tondauern</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_tie">
+                            <name xml:lang="en">Ties</name>
+                            <name xml:lang="de">Bogensetzung</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_accidental">
+                            <name xml:lang="en">Accidentals</name>
+                            <name xml:lang="de">Akzidentien</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_clef">
+                            <name xml:lang="en">Clefs</name>
+                            <name xml:lang="de">Schlüssel</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_voicing">
+                            <name xml:lang="en">Voices</name>
+                            <name xml:lang="de">Stimmen</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_notation">
+                            <name xml:lang="en">Notation</name>
+                            <name xml:lang="de">Notation</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_fermata">
+                            <name xml:lang="en">Articulation</name>
+                            <name xml:lang="de">Artikulation</name>
+                        </term>
+                        
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_agogics">
+                            <name xml:lang="en">Agogics</name>
+                            <name xml:lang="de">Agogik</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_tempo">
+                            <name xml:lang="en">Tempo</name>
+                            <name xml:lang="de">Tempo</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_lyrics">
+                            <name xml:lang="en">Lyrics</name>
+                            <name xml:lang="de">Text</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_intervention">
+                            <name xml:lang="en">Editorial Intervention</name>
+                            <name xml:lang="de">Hg.-Korrektur</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_perfMedium">
+                            <name xml:lang="en">Instrumentation</name>
+                            <name xml:lang="de">Besetzung</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_ornamentation">
+                            <name xml:lang="en">Ornamentation</name>
+                            <name xml:lang="de">Verzierung</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_correction">
+                            <name xml:lang="en">Correction</name>
+                            <name xml:lang="de">Korrektur</name>
+                        </term>
+                        <term classcode="#ediromCategory" xml:id="ediromAnnotCategory_partWriting">
+                            <name xml:lang="en">Part Writing</name>
+                            <name xml:lang="de">Tonsatz</name>
+                        </term>
+                    </termList>
+                    <termList classcode="#ediromPriority">
+                        <term classcode="#ediromPriority" xml:id="ediromAnnotPrio1">
+                            <name xml:lang="en">Priority 1</name>
+                            <name xml:lang="de">Priorität 1</name>
+                        </term>
+                        <term classcode="#ediromPriority" xml:id="ediromAnnotPrio2">
+                            <name xml:lang="en">Priority 2</name>
+                            <name xml:lang="de">Priorität 2</name>
+                        </term>
+                        <term classcode="#ediromPriority" xml:id="ediromAnnotPrio3">
+                            <name xml:lang="en">Priority 3</name>
+                            <name xml:lang="de">Priorität 3</name>
+                        </term>
+                    </termList>
+                    <termList>
+                        <term>MusicalWork</term>
+                    </termList>
+                </classification>
+            </work>
+        </workDesc>
+    </meiHead>
+    <music/>
+</mei>

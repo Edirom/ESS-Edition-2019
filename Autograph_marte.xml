@@ -3,7 +3,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Autograph Marte</title>
             </titleStmt>
             <pubStmt/>
         </fileDesc>
@@ -22,12 +22,12 @@
                   n="1"
                   ulx="0"
                   uly="0"
-                  lrx="1615"
-                  lry="1919">
+                  lrx="2148"
+                  lry="1615">
                 <graphic xml:id="graphic_01DM0ESG6VN082S88K5WTDCTCA"
                   target="sources/A/00000008.jpg"
-                     width="1616"
-                     height="1920"
+                     width="2149"
+                     height="1616"
                      type="facsimile"/>
                 <zone xml:id="zone_01DM0ESG6YHD1Z7ZD871299QMA"
                   type="measure"
@@ -130,13 +130,13 @@
                   n="2"
                   ulx="0"
                   uly="0"
-                  lrx="1615"
-                  lry="1919">
-                <graphic xml:id="graphic_01DM0ESG7B8G0VGRBCT8S2B3BM"
+                  lrx="2148"
+                  lry="1615">
+              <graphic xml:id="graphic_01DM0ESG7B8G0VGRBCT8S2B3BM"
                   target="sources/A/00000009.jpg"
-                     width="1616"
-                     height="1920"
-                     type="facsimile"/>
+                  width="2149"
+                  height="1616"
+                  type="facsimile"/>
                 <zone xml:id="zone_01DM0ESG7BDD3JNJKM08TG8B0Q"
                   type="measure"
                   ulx="59"
@@ -214,13 +214,13 @@
                   n="3"
                   ulx="0"
                   uly="0"
-                  lrx="1615"
-                  lry="1919">
-                <graphic xml:id="graphic_01DM0ESG7GVXEWPCFAQ8APNYT8"
+                  lrx="2148"
+                  lry="1615">
+              <graphic xml:id="graphic_01DM0ESG7GVXEWPCFAQ8APNYT8"
                   target="sources/A/00000010.jpg"
-                     width="1616"
-                     height="1920"
-                     type="facsimile"/>
+                  width="2149"
+                  height="1616"
+                  type="facsimile"/>
                 <zone xml:id="zone_01DM0ESG7HASTJMZ6CYN3ZP3B4"
                   type="measure"
                   ulx="78"
@@ -316,13 +316,13 @@
                   n="4"
                   ulx="0"
                   uly="0"
-                  lrx="1615"
-                  lry="1919">
-                <graphic xml:id="graphic_01DM0ESG7VJ4E2XX64V43NERG9"
+                  lrx="2148"
+                  lry="1615">
+              <graphic xml:id="graphic_01DM0ESG7VJ4E2XX64V43NERG9"
                   target="sources/A/00000011.jpg"
-                     width="1616"
-                     height="1920"
-                     type="facsimile"/>
+                  width="2149"
+                  height="1616"
+                  type="facsimile"/>
                 <zone xml:id="zone_01DM0ESG7WZMP4AK3RBY4Y07M8"
                   type="measure"
                   ulx="61"
@@ -442,13 +442,13 @@
                   n="5"
                   ulx="0"
                   uly="0"
-                  lrx="1615"
-                  lry="1919">
-                <graphic xml:id="graphic_01DM0ESG81RFBNHE2YV0GYK4WT"
+                  lrx="2148"
+                  lry="1615">
+              <graphic xml:id="graphic_01DM0ESG81RFBNHE2YV0GYK4WT"
                   target="sources/A/00000012.jpg"
-                     width="1616"
-                     height="1920"
-                     type="facsimile"/>
+                  width="2149"
+                  height="1616"
+                  type="facsimile"/>
                 <zone xml:id="zone_01DM0ESG8294JF1THK2JJF8BR2"
                   type="measure"
                   ulx="90"
@@ -544,13 +544,13 @@
                   n="6"
                   ulx="0"
                   uly="0"
-                  lrx="1615"
-                  lry="1919">
-                <graphic xml:id="graphic_01DM0ESG8K3YSWWHK6X54BQKGT"
+                  lrx="2148"
+                  lry="1615">
+              <graphic xml:id="graphic_01DM0ESG8K3YSWWHK6X54BQKGT"
                   target="sources/A/00000013.jpg"
-                     width="1616"
-                     height="1920"
-                     type="facsimile"/>
+                  width="2149"
+                  height="1616"
+                  type="facsimile"/>
                 <zone xml:id="zone_01DM0ESG8KWW2FSVGE202JTBD1"
                   type="measure"
                   ulx="38"
