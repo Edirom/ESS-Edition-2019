@@ -18,11 +18,31 @@
                         <annot xml:id="a1"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#measure_01DM0GE0BEZG5818T6SSZTDKXV">
-                            <title>Test-Anmerkung</title>
-                            <p>Dies ist eine Test-Anmerkung</p>
+                            <title>Test-Anmerkung 1</title>
+                            <p>In T. 1 spielt die 1. Vl. g' statt c'</p>
                             <ptr type="priority" target="#ediromAnnotPrio1"/>
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
+                        <annot type="criticalCommentary">
+                            <annot xml:id="a2"
+                                type="editorialComment"
+                                plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#measure_01DM0GE0BFTCPVPHQJAX8VJVAC">
+                                <title>Test-Anmerkung 2</title>
+                                <p>In T. 4 fehlt die Ganze Pause in den Trombe</p>
+                                <ptr type="priority" target="#ediromAnnotPrio1"/>
+                                <ptr type="categories"
+                                    target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                            </annot>
+                            <annot xml:id="a3"
+                                type="editorialComment"
+                                plist="xmldb:exist:///db/apps/ess-edition-2019/Druck_Ulrich.xml#measure_01DM0GE0BFTCPVPHQJAX8VJVAC">
+                                <title>Test-Anmerkung 3</title>
+                                <p>In T. 18 endet der Bogen in den Corni in F vor dem Taktstrich</p>
+                                <ptr type="priority" target="#ediromAnnotPrio1"/>
+                                <ptr type="categories"
+                                    target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                            </annot>
                         </annot>
                     </annot>
                 </notesStmt>
