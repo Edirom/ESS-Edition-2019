@@ -183,6 +183,14 @@
                      width="1616"
                      height="1916"
                      type="facsimile"/>
+              
+              <zone xml:id="zone_a1"
+                type="annotation"
+                ulx="100"
+                uly="100"
+                lrx="300"
+                lry="300"/>
+              
                 <zone xml:id="zone_01DM0GE0BD73QCYN7A981A004J"
                   type="measure"
                   ulx="394"
