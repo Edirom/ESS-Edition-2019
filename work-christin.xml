@@ -44,7 +44,7 @@
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
                         </annot>
-                        <annot xml:id="a3"
+                        <annot xml:id="a4"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#zona_a1">
                             <title>Dynamik</title>
