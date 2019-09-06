@@ -15,11 +15,22 @@
                 </titleStmt>
                 <notesStmt>
                     <annot type="criticalCommentary">
+             
+                        
                         <annot xml:id="a1"
                             type="editorialComment"
                             plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#measure_01DM0EQX2BW0TDA90RR0WHXAE0">
-                            <title>Artikulation</title>
-                            <p>Ob. in A ohne Akzent, Akzent ergänzt nach DSchlesinger1867</p>
+                            <title>Dynamik</title>
+                            <p>Vl. I in A piano, korrigiert nach DSchlesinger1867 in pp</p>
+                            <ptr type="priority" target="#ediromAnnotPrio1"/>
+                            <ptr type="categories"
+                                target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
+                        </annot>
+                        <annot xml:id="a2"
+                            type="editorialComment"
+                            plist="xmldb:exist:///db/apps/ess-edition-2019/measure_annotations_2.xml#measure_01DM0EQX2GS69G7P05KERWJ6XJ">
+                            <title>Dynamik</title>
+                            <p>kein forte in Vl. II in T. 9 in Quelle A, forte ergänzt nach DSchlesinger1867 in pp</p>
                             <ptr type="priority" target="#ediromAnnotPrio1"/>
                             <ptr type="categories"
                                 target="#ediromAnnotCategory_tempo #ediromAnnotCategory_notation"/>
